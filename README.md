@@ -1,4 +1,6 @@
 # infinite-file-stream
+[![Build Status](https://travis-ci.org/andrewshatnyy/infinite-file-stream.svg?branch=master)](https://travis-ci.org/andrewshatnyy/infinite-file-stream)
+
 Minimalistic infinite file stream.
 
 An easy way to create readable stream that loops over file contents infinitely. 
