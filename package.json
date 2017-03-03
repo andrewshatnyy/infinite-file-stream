@@ -1,6 +1,6 @@
 {
   "name": "infinite-file-stream",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An infinite file stream. Stream that takes a filename and streams it by loop reading",
   "main": "index.js",
   "keywords": [
