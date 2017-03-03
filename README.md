@@ -1,11 +1,12 @@
 # infinite-file-stream
-Minimalistic infinite file stream. 
-A stream that takes a filename and streams it by loop reading.
-
-
+Minimalistic infinite file stream.
 An easy way to create `readable` `Stream` that loops over file contents infinitely. 
 
+## Install
+
 `npm i infinite-file-stream`
+
+## Use
 
 * Pass in `file` [string] and optional `encoding` [string] options.
 * Use it as a `readable` node `Stream`
@@ -61,7 +62,6 @@ app.use(function *response() {
 app.listen(9000);
 
 ```
-
 
 ## License
 
