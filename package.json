@@ -1,0 +1,29 @@
+{
+  "name": "infinite-file-stream",
+  "version": "1.0.0",
+  "description": "An infinite file stream. Stream that takes a filename and streams it by loop reading",
+  "main": "index.js",
+  "keywords": [
+    "stream",
+    "file",
+    "infinite"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andrewshatnyy/infinite-file-stream.git"
+  },
+  "scripts": {
+    "test": "`npm bin`/mocha",
+    "lint": "`npm bin`/eslint src"
+  },
+  "author": "Andrew Shatnyy <AndrewShatnyy@gmail.com> (http://www.andrewshatnyy.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^3.16.1",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-config-airbnb-base": "^11.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "mocha": "^3.2.0",
+    "through": "^2.3.8"
+  }
+}
