@@ -1,6 +1,7 @@
 # infinite-file-stream
 Minimalistic infinite file stream.
-An easy way to create `readable` `Stream` that loops over file contents infinitely. 
+
+An easy way to create readable stream that loops over file contents infinitely. 
 
 ## Install
 
