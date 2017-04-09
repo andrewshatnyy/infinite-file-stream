@@ -3,32 +3,32 @@
   "version": "1.0.3",
   "description": "An infinite file stream.",
   "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "install": "node-gyp rebuild"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/andrewshatnyy/infinite-file-stream.git"
-  },
   "keywords": [
     "stream",
     "file",
     "infinite"
   ],
-  "author": "Andrew Shatnyy <AndrewShatnyy@gmail.com> (http://www.andrewshatnyy.com)",
-  "license": "MIT",
-  "gypfile": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andrewshatnyy/infinite-file-stream.git"
+  },
   "bugs": {
     "url": "https://github.com/andrewshatnyy/infinite-file-stream/issues"
   },
-  "homepage": "https://github.com/andrewshatnyy/infinite-file-stream",
-  "dependencies": {
-    "nan": "^2.6.1",
-    "streaming-worker": "^1.0.1",
-    "streaming-worker-sdk": "^0.9.3"
+  "scripts": {
+    "test": "`npm bin`/mocha",
+    "lint": "`npm bin`/eslint src"
+  },
+  "author": "Andrew Shatnyy <AndrewShatnyy@gmail.com> (http://www.andrewshatnyy.com)",
+  "license": "MIT",
+  "gypfile": true,
+  "devDependencies": {
+    "eslint": "^3.16.1",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-config-airbnb-base": "^11.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "mocha": "^3.2.0",
+    "through": "^2.3.8"
   }
 }
+
