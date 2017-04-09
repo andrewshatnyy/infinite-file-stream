@@ -3,7 +3,7 @@
     {
       "target_name": "infinite_file_stream",
       "sources": [ "src/stream.cpp" ], 
-      "cflags": ["-Wall", "-std=c++11"],
+      "cflags": ["-Wall", "-std=c++0x"],
       "cflags!": [ "-fno-exceptions" ],
       "cflags_cc!": [ "-fno-exceptions" ],
       "include_dirs" : [
